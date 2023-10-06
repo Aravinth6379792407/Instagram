@@ -1,0 +1,28 @@
+.feed{
+    width: 500px;
+    border:1px solid lightgray;
+    padding: 10px;
+    margin: 30px auto;
+}
+.feed-img{
+    width: 100%;
+}
+.reactions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.username{
+    font-size: 12px;
+    color: gray;
+}
